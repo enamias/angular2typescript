@@ -11,7 +11,7 @@ import {routing} from './components/app.routing';
     imports:      [ BrowserModule, routing ],
     declarations: [ AppComponent, HomeComponent, ProductDetailComponent],
     providers:[{provide: LocationStrategy, useClass: HashLocationStrategy}],
-    //providers:[{provide: APP_BASE_HREF, useValue: '/'}], // requires configuring redirects on web server
+    providers:[{provide: APP_BASE_HREF, useValue: '/'}], // requires configuring redirects on web server
     bootstrap:    [ AppComponent ]
 })
 class AppModule { }

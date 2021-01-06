@@ -5,6 +5,10 @@
   "scripts": {
     "start": "live-server"
   },
+  "version": "1.0.0",
+  "main": "systemjs.config.js",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@angular/common": "^2.4.0",
     "@angular/compiler": "^2.4.0",

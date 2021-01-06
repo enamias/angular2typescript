@@ -31,3 +31,7 @@ class AppComponent {}
 class AppModule { }
 
 platformBrowserDynamic().bootstrapModule(AppModule);
+
+//packages: {
+//	'app': {main: 'main-param', defaultExtension: 'ts'}
+}

@@ -8,6 +8,6 @@ export class AppComponent {
     name: string;
 
     constructor() {
-        this.name = 'Angular 2';
+        this.name = 'Welcome Ettore to Angular 2';
     }
 }
